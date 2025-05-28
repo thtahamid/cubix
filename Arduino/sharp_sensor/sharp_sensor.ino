@@ -2,7 +2,7 @@ const int sensorPin = A0;  // Pin connected to the sensor's output (Vo)
 float distanceCm;
 
 void setup() {
-  Serial.begin(9600);  // Initialize serial communication
+  Serial.begin(115200);  // Initialize serial communication
 }
 
 void loop() {
